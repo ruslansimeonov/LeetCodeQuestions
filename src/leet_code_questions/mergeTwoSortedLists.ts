@@ -50,3 +50,4 @@ function printList(head: ListNode | null): void {
 }
 
 printList(mergedList);
+console.log("Expected: 1, 1, 2, 3, 4, 4");
