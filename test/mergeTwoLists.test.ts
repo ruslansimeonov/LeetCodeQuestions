@@ -1,4 +1,7 @@
-import { ListNode, mergeTwoLists } from "../src/leet_code_questions/mergeTwoSortedLists";
+import {
+  ListNode,
+  mergeTwoLists,
+} from "../src/leet_code_questions/mergeTwoSortedLists";
 
 function createLinkedList(arr: number[]): ListNode | null {
   if (arr.length === 0) return null;
@@ -40,4 +43,18 @@ test("mergeTwoLists example 3", () => {
   const list2 = createLinkedList([0]);
   const mergedList = mergeTwoLists(list1, list2);
   expect(linkedListToArray(mergedList)).toEqual([0]);
+});
+
+test("mergeTwoLists with list1 exhausted before list2", () => {
+  const list1 = createLinkedList([1, 2]);
+  const list2 = createLinkedList([3, 4, 5]);
+  const mergedList = mergeTwoLists(list1, list2);
+  expect(linkedListToArray(mergedList)).toEqual([1, 2, 3, 4, 5]);
+});
+
+test("mergeTwoLists with list2 exhausted before list1", () => {
+  const list1 = createLinkedList([3, 4, 5]);
+  const list2 = createLinkedList([1, 2]);
+  const mergedList = mergeTwoLists(list1, list2);
+  expect(linkedListToArray(mergedList)).toEqual([1, 2, 3, 4, 5]);
 });
