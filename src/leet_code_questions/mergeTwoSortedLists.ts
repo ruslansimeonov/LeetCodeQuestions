@@ -44,10 +44,9 @@ const mergedList = mergeTwoLists(list1, list2);
 function printList(head: ListNode | null): void {
   let current = head;
   while (current !== null) {
-    console.log(current.val);
     current = current.next;
   }
 }
 
 printList(mergedList);
-console.log("Expected: 1, 1, 2, 3, 4, 4");
+// console.log("Expected: 1, 1, 2, 3, 4, 4");

@@ -75,20 +75,20 @@ function benchmark() {
   const haystack = "a".repeat(10000000) + "b";
   const needle = "a".repeat(10000000);
 
-  console.time("strStr");
+  // console.time("strStr");
   strStr(haystack, needle);
-  console.timeEnd("strStr");
+  // console.timeEnd("strStr");
 
-  console.time("strStr2");
+  // console.time("strStr2");
   strStr2(haystack, needle);
-  console.timeEnd("strStr2");
+  // console.timeEnd("strStr2");
 }
 
 // Example usage:
-console.log(strStr("sadbutsad", "sad")); // Output: 0
-console.log(strStr("leetcode", "leeto")); // Output: -1
+// console.log(strStr("sadbutsad", "sad")); // Output: 0
+// console.log(strStr("leetcode", "leeto")); // Output: -1
 
-console.log(strStr2("sadbutsad", "sad")); // Output: 0
-console.log(strStr2("leetcode", "leeto")); // Output: -1
+// console.log(strStr2("sadbutsad", "sad")); // Output: 0
+// console.log(strStr2("leetcode", "leeto")); // Output: -1
 
 benchmark();

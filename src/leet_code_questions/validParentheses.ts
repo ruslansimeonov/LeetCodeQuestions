@@ -21,7 +21,7 @@ export function isValid(s: string): boolean {
 }
 
 // Example usage:
-console.log(isValid("()")); // Output: true
-console.log(isValid("()[]{}")); // Output: true
-console.log(isValid("(]")); // Output: false
-console.log(isValid("([])")); // Output: true
+// console.log(isValid("()")); // Output: true
+// console.log(isValid("()[]{}")); // Output: true
+// console.log(isValid("(]")); // Output: false
+// console.log(isValid("([])")); // Output: true

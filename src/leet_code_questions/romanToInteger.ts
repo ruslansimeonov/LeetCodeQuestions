@@ -25,6 +25,6 @@ export function romanToInt(s: string): number {
 }
 
 // Example usage:
-console.log(romanToInt("III")); // Output: 3
-console.log(romanToInt("LVIII")); // Output: 58
-console.log(romanToInt("MCMXCIV")); // Output: 1994
+// console.log(romanToInt("III")); // Output: 3
+// console.log(romanToInt("LVIII")); // Output: 58
+// console.log(romanToInt("MCMXCIV")); // Output: 1994

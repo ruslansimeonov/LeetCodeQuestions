@@ -14,5 +14,5 @@ export function longestCommonPrefix(strs: string[]): string {
 }
 
 // Example usage:
-console.log(longestCommonPrefix(["flower", "flow", "flight"])); // Output: "fl"
-console.log(longestCommonPrefix(["dog", "racecar", "car"])); // Output: ""
+// console.log(longestCommonPrefix(["flower", "flow", "flight"])); // Output: "fl"
+// console.log(longestCommonPrefix(["dog", "racecar", "car"])); // Output: ""

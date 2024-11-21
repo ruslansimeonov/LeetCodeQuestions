@@ -35,7 +35,7 @@ describe("strStr function", () => {
     const start = performance.now();
     expect(strStr(haystack, needle)).toBe(0);
     const end = performance.now();
-    console.log(`strStr execution time: ${end - start} ms`);
+    // console.info(`strStr execution time: ${end - start} ms`);
   });
 });
 
@@ -70,6 +70,6 @@ describe("strStr2 function", () => {
     const start = performance.now();
     expect(strStr2(haystack, needle)).toBe(0);
     const end = performance.now();
-    console.log(`strStr2 execution time: ${end - start} ms`);
+    // console.info(`strStr2 execution time: ${end - start} ms`);
   });
 });
