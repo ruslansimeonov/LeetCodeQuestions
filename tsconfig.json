@@ -3,7 +3,11 @@
     "target": "ES5",
     "module": "CommonJS",
     "outDir": "./out",
-    "rootDir": "./src/leet_code_questions"
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/leet_code_questions/**/*.ts"]
+  "include": ["src/**/*.ts"]
 }
