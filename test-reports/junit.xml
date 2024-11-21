@@ -1,110 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="60" failures="0" errors="0" time="7.074">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-11-21T13:33:49" time="5.219" tests="5">
-    <testcase classname=" removeElement example 1" name=" removeElement example 1" time="0.025">
-    </testcase>
-    <testcase classname=" removeElement example 2" name=" removeElement example 2" time="0.001">
-    </testcase>
-    <testcase classname=" removeElement with no occurrences" name=" removeElement with no occurrences" time="0.002">
-    </testcase>
-    <testcase classname=" removeElement with all occurrences" name=" removeElement with all occurrences" time="0.001">
-    </testcase>
-    <testcase classname=" removeElement with mixed values" name=" removeElement with mixed values" time="0.002">
-    </testcase>
-  </testsuite>
-  <testsuite name="searchInsert function" errors="0" failures="0" skipped="0" timestamp="2024-11-21T13:33:49" time="5.298" tests="10">
-    <testcase classname="searchInsert function example 1" name="searchInsert function example 1" time="0.02">
-    </testcase>
-    <testcase classname="searchInsert function example 2" name="searchInsert function example 2" time="0.001">
-    </testcase>
-    <testcase classname="searchInsert function example 3" name="searchInsert function example 3" time="0.002">
-    </testcase>
-    <testcase classname="searchInsert function target is smaller than all elements" name="searchInsert function target is smaller than all elements" time="0.001">
-    </testcase>
-    <testcase classname="searchInsert function target is larger than all elements" name="searchInsert function target is larger than all elements" time="0.003">
-    </testcase>
-    <testcase classname="searchInsert function target is in the middle of the array" name="searchInsert function target is in the middle of the array" time="0.001">
-    </testcase>
-    <testcase classname="searchInsert function target is not in the array and should be inserted in the middle" name="searchInsert function target is not in the array and should be inserted in the middle" time="0">
-    </testcase>
-    <testcase classname="searchInsert function single element array, target is the element" name="searchInsert function single element array, target is the element" time="0">
-    </testcase>
-    <testcase classname="searchInsert function single element array, target is smaller" name="searchInsert function single element array, target is smaller" time="0.001">
-    </testcase>
-    <testcase classname="searchInsert function single element array, target is larger" name="searchInsert function single element array, target is larger" time="0">
-    </testcase>
-  </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-11-21T13:33:49" time="5.275" tests="5">
-    <testcase classname=" mergeTwoLists example 1" name=" mergeTwoLists example 1" time="0.028">
-    </testcase>
-    <testcase classname=" mergeTwoLists example 2" name=" mergeTwoLists example 2" time="0.004">
-    </testcase>
-    <testcase classname=" mergeTwoLists example 3" name=" mergeTwoLists example 3" time="0.001">
-    </testcase>
-    <testcase classname=" mergeTwoLists with list1 exhausted before list2" name=" mergeTwoLists with list1 exhausted before list2" time="0.002">
-    </testcase>
-    <testcase classname=" mergeTwoLists with list2 exhausted before list1" name=" mergeTwoLists with list2 exhausted before list1" time="0.001">
-    </testcase>
-  </testsuite>
-  <testsuite name="longestCommonPrefix function" errors="0" failures="0" skipped="0" timestamp="2024-11-21T13:33:49" time="5.314" tests="10">
-    <testcase classname="longestCommonPrefix function example 1" name="longestCommonPrefix function example 1" time="0.019">
-    </testcase>
-    <testcase classname="longestCommonPrefix function example 2" name="longestCommonPrefix function example 2" time="0.001">
-    </testcase>
-    <testcase classname="longestCommonPrefix function no common prefix" name="longestCommonPrefix function no common prefix" time="0.001">
-    </testcase>
-    <testcase classname="longestCommonPrefix function all strings are the same" name="longestCommonPrefix function all strings are the same" time="0.001">
-    </testcase>
-    <testcase classname="longestCommonPrefix function one string is empty" name="longestCommonPrefix function one string is empty" time="0.001">
-    </testcase>
-    <testcase classname="longestCommonPrefix function all strings are empty" name="longestCommonPrefix function all strings are empty" time="0">
-    </testcase>
-    <testcase classname="longestCommonPrefix function single string in array" name="longestCommonPrefix function single string in array" time="0.001">
-    </testcase>
-    <testcase classname="longestCommonPrefix function common prefix with different lengths" name="longestCommonPrefix function common prefix with different lengths" time="0">
-    </testcase>
-    <testcase classname="longestCommonPrefix function common prefix with one character" name="longestCommonPrefix function common prefix with one character" time="0.001">
-    </testcase>
-    <testcase classname="longestCommonPrefix function no strings in array" name="longestCommonPrefix function no strings in array" time="0">
-    </testcase>
-  </testsuite>
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-11-21T13:33:49" time="5.414" tests="5">
-    <testcase classname=" romanToInt example 1" name=" romanToInt example 1" time="0.014">
+<testsuites name="jest tests" tests="75" failures="0" errors="0" time="8.822">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-11-21T15:37:16" time="5.652" tests="5">
+    <testcase classname=" romanToInt example 1" name=" romanToInt example 1" time="0.04">
     </testcase>
     <testcase classname=" romanToInt example 2" name=" romanToInt example 2" time="0">
     </testcase>
     <testcase classname=" romanToInt example 3" name=" romanToInt example 3" time="0.001">
     </testcase>
-    <testcase classname=" romanToInt with single character" name=" romanToInt with single character" time="0.002">
+    <testcase classname=" romanToInt with single character" name=" romanToInt with single character" time="0.012">
     </testcase>
-    <testcase classname=" romanToInt with complex numerals" name=" romanToInt with complex numerals" time="0.003">
+    <testcase classname=" romanToInt with complex numerals" name=" romanToInt with complex numerals" time="0.001">
     </testcase>
   </testsuite>
-  <testsuite name="isValid function" errors="0" failures="0" skipped="0" timestamp="2024-11-21T13:33:49" time="5.495" tests="11">
-    <testcase classname="isValid function example 1" name="isValid function example 1" time="0.013">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-11-21T15:37:16" time="5.732" tests="5">
+    <testcase classname=" mergeTwoLists example 1" name=" mergeTwoLists example 1" time="0.048">
+    </testcase>
+    <testcase classname=" mergeTwoLists example 2" name=" mergeTwoLists example 2" time="0.001">
+    </testcase>
+    <testcase classname=" mergeTwoLists example 3" name=" mergeTwoLists example 3" time="0.001">
+    </testcase>
+    <testcase classname=" mergeTwoLists with list1 exhausted before list2" name=" mergeTwoLists with list1 exhausted before list2" time="0.002">
+    </testcase>
+    <testcase classname=" mergeTwoLists with list2 exhausted before list1" name=" mergeTwoLists with list2 exhausted before list1" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="isValid function" errors="0" failures="0" skipped="0" timestamp="2024-11-21T15:37:16" time="5.934" tests="11">
+    <testcase classname="isValid function example 1" name="isValid function example 1" time="0.024">
     </testcase>
     <testcase classname="isValid function example 2" name="isValid function example 2" time="0.001">
     </testcase>
-    <testcase classname="isValid function example 3" name="isValid function example 3" time="0">
+    <testcase classname="isValid function example 3" name="isValid function example 3" time="0.001">
     </testcase>
-    <testcase classname="isValid function example 4" name="isValid function example 4" time="0.001">
+    <testcase classname="isValid function example 4" name="isValid function example 4" time="0.003">
     </testcase>
-    <testcase classname="isValid function unmatched opening bracket" name="isValid function unmatched opening bracket" time="0">
+    <testcase classname="isValid function unmatched opening bracket" name="isValid function unmatched opening bracket" time="0.003">
     </testcase>
-    <testcase classname="isValid function unmatched closing bracket" name="isValid function unmatched closing bracket" time="0">
+    <testcase classname="isValid function unmatched closing bracket" name="isValid function unmatched closing bracket" time="0.001">
     </testcase>
-    <testcase classname="isValid function nested brackets" name="isValid function nested brackets" time="0">
+    <testcase classname="isValid function nested brackets" name="isValid function nested brackets" time="0.001">
     </testcase>
     <testcase classname="isValid function incorrectly nested brackets" name="isValid function incorrectly nested brackets" time="0">
     </testcase>
-    <testcase classname="isValid function empty string" name="isValid function empty string" time="0">
+    <testcase classname="isValid function empty string" name="isValid function empty string" time="0.001">
     </testcase>
     <testcase classname="isValid function long valid string" name="isValid function long valid string" time="0.001">
     </testcase>
     <testcase classname="isValid function long invalid string" name="isValid function long invalid string" time="0">
     </testcase>
   </testsuite>
-  <testsuite name="strStr function" errors="0" failures="0" skipped="0" timestamp="2024-11-21T13:33:49" time="6.114" tests="14">
+  <testsuite name="longestCommonPrefix function" errors="0" failures="0" skipped="0" timestamp="2024-11-21T15:37:16" time="6.391" tests="10">
+    <testcase classname="longestCommonPrefix function example 1" name="longestCommonPrefix function example 1" time="0.021">
+    </testcase>
+    <testcase classname="longestCommonPrefix function example 2" name="longestCommonPrefix function example 2" time="0.001">
+    </testcase>
+    <testcase classname="longestCommonPrefix function no common prefix" name="longestCommonPrefix function no common prefix" time="0.001">
+    </testcase>
+    <testcase classname="longestCommonPrefix function all strings are the same" name="longestCommonPrefix function all strings are the same" time="0.002">
+    </testcase>
+    <testcase classname="longestCommonPrefix function one string is empty" name="longestCommonPrefix function one string is empty" time="0.001">
+    </testcase>
+    <testcase classname="longestCommonPrefix function all strings are empty" name="longestCommonPrefix function all strings are empty" time="0.001">
+    </testcase>
+    <testcase classname="longestCommonPrefix function single string in array" name="longestCommonPrefix function single string in array" time="0.001">
+    </testcase>
+    <testcase classname="longestCommonPrefix function common prefix with different lengths" name="longestCommonPrefix function common prefix with different lengths" time="0.002">
+    </testcase>
+    <testcase classname="longestCommonPrefix function common prefix with one character" name="longestCommonPrefix function common prefix with one character" time="0.001">
+    </testcase>
+    <testcase classname="longestCommonPrefix function no strings in array" name="longestCommonPrefix function no strings in array" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-11-21T15:37:16" time="6.471" tests="5">
+    <testcase classname=" removeElement example 1" name=" removeElement example 1" time="0.018">
+    </testcase>
+    <testcase classname=" removeElement example 2" name=" removeElement example 2" time="0.001">
+    </testcase>
+    <testcase classname=" removeElement with no occurrences" name=" removeElement with no occurrences" time="0.001">
+    </testcase>
+    <testcase classname=" removeElement with all occurrences" name=" removeElement with all occurrences" time="0.001">
+    </testcase>
+    <testcase classname=" removeElement with mixed values" name=" removeElement with mixed values" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="searchInsert function" errors="0" failures="0" skipped="0" timestamp="2024-11-21T15:37:16" time="6.626" tests="10">
+    <testcase classname="searchInsert function example 1" name="searchInsert function example 1" time="0.023">
+    </testcase>
+    <testcase classname="searchInsert function example 2" name="searchInsert function example 2" time="0.001">
+    </testcase>
+    <testcase classname="searchInsert function example 3" name="searchInsert function example 3" time="0.001">
+    </testcase>
+    <testcase classname="searchInsert function target is smaller than all elements" name="searchInsert function target is smaller than all elements" time="0.001">
+    </testcase>
+    <testcase classname="searchInsert function target is larger than all elements" name="searchInsert function target is larger than all elements" time="0.001">
+    </testcase>
+    <testcase classname="searchInsert function target is in the middle of the array" name="searchInsert function target is in the middle of the array" time="0.001">
+    </testcase>
+    <testcase classname="searchInsert function target is not in the array and should be inserted in the middle" name="searchInsert function target is not in the array and should be inserted in the middle" time="0.001">
+    </testcase>
+    <testcase classname="searchInsert function single element array, target is the element" name="searchInsert function single element array, target is the element" time="0.001">
+    </testcase>
+    <testcase classname="searchInsert function single element array, target is smaller" name="searchInsert function single element array, target is smaller" time="0.001">
+    </testcase>
+    <testcase classname="searchInsert function single element array, target is larger" name="searchInsert function single element array, target is larger" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="strStr function" errors="0" failures="0" skipped="0" timestamp="2024-11-21T15:37:16" time="7.262" tests="14">
     <testcase classname="strStr function example 1" name="strStr function example 1" time="0.01">
     </testcase>
     <testcase classname="strStr function example 2" name="strStr function example 2" time="0.001">
@@ -113,9 +113,9 @@
     </testcase>
     <testcase classname="strStr function needle is empty" name="strStr function needle is empty" time="0.001">
     </testcase>
-    <testcase classname="strStr function haystack is empty" name="strStr function haystack is empty" time="0">
+    <testcase classname="strStr function haystack is empty" name="strStr function haystack is empty" time="0.001">
     </testcase>
-    <testcase classname="strStr function needle is longer than haystack" name="strStr function needle is longer than haystack" time="0">
+    <testcase classname="strStr function needle is longer than haystack" name="strStr function needle is longer than haystack" time="0.001">
     </testcase>
     <testcase classname="strStr function large input" name="strStr function large input" time="0.002">
     </testcase>
@@ -131,7 +131,41 @@
     </testcase>
     <testcase classname="strStr2 function needle is longer than haystack" name="strStr2 function needle is longer than haystack" time="0">
     </testcase>
-    <testcase classname="strStr2 function large input" name="strStr2 function large input" time="0.008">
+    <testcase classname="strStr2 function large input" name="strStr2 function large input" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="merge function" errors="0" failures="0" skipped="0" timestamp="2024-11-21T15:37:16" time="7.43" tests="8">
+    <testcase classname="merge function should merge two sorted arrays (example 1)" name="merge function should merge two sorted arrays (example 1)" time="0.013">
+    </testcase>
+    <testcase classname="merge function should handle merging when nums2 is empty (example 2)" name="merge function should handle merging when nums2 is empty (example 2)" time="0.001">
+    </testcase>
+    <testcase classname="merge function should handle merging when nums1 is empty (example 3)" name="merge function should handle merging when nums1 is empty (example 3)" time="0">
+    </testcase>
+    <testcase classname="merge function should handle merging when nums1 has remaining elements" name="merge function should handle merging when nums1 has remaining elements" time="0.001">
+    </testcase>
+    <testcase classname="merge function should handle merging when nums2 has remaining elements" name="merge function should handle merging when nums2 has remaining elements" time="0">
+    </testcase>
+    <testcase classname="merge function should handle merging when nums1 and nums2 are interleaved" name="merge function should handle merging when nums1 and nums2 are interleaved" time="0.006">
+    </testcase>
+    <testcase classname="merge function should handle merging when nums1 is larger than nums2" name="merge function should handle merging when nums1 is larger than nums2" time="0">
+    </testcase>
+    <testcase classname="merge function should handle merging when nums2 is larger than nums1" name="merge function should handle merging when nums2 is larger than nums1" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="removeDuplicates function" errors="0" failures="0" skipped="0" timestamp="2024-11-21T15:37:16" time="7.87" tests="7">
+    <testcase classname="removeDuplicates function example 1" name="removeDuplicates function example 1" time="0.009">
+    </testcase>
+    <testcase classname="removeDuplicates function example 2" name="removeDuplicates function example 2" time="0">
+    </testcase>
+    <testcase classname="removeDuplicates function single element array" name="removeDuplicates function single element array" time="0.001">
+    </testcase>
+    <testcase classname="removeDuplicates function no duplicates" name="removeDuplicates function no duplicates" time="0.001">
+    </testcase>
+    <testcase classname="removeDuplicates function all elements are duplicates" name="removeDuplicates function all elements are duplicates" time="0">
+    </testcase>
+    <testcase classname="removeDuplicates function empty array" name="removeDuplicates function empty array" time="0">
+    </testcase>
+    <testcase classname="removeDuplicates function large array with duplicates" name="removeDuplicates function large array with duplicates" time="0.003">
     </testcase>
   </testsuite>
 </testsuites>
