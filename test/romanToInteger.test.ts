@@ -1,4 +1,4 @@
-import { romanToInt } from "../src/leet_code_questions/roman_to_integer";
+import { romanToInt } from "../src/leet_code_questions/romanToInteger";
 
 test("romanToInt example 1", () => {
   expect(romanToInt("III")).toBe(3);
